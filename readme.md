@@ -70,3 +70,16 @@ git commit -m "Create Third File"
 git add test4.md
 git commit -m "Create fourth file"
 ```
+
+### 5.Advanced Squashing:
+* The first thing i did was to rebase the last two commits. and then replace the liest pick message create fourt file with squash. and after saving another file is open and we edit the first commit with the Create third and fourth files and then delete the last one.
+```bash
+ git log --oneline
+ git rebase -i HEAD~2
+```
+another file opens with the last two commit messages. the change the last commit to squash
+```bash
+pick Create Third File
+squash Create fourth File
+```
+this will bring a new file and the all we have to do is to replace the first commit message to Create third and fourth files and delete the last message. and then save.
