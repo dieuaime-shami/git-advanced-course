@@ -94,3 +94,10 @@ This will open one commit history in a file and the replace pick word to drop an
 ```bash
 drop unwanted commit
 ```
+### 7.Reordering Commits:
+I did was to rebase and the arrange the commit history messages, save and continue.
+```bash
+ git rebase -i
+ // arrange the commit message
+ git rebase --continue
+```
