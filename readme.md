@@ -45,3 +45,18 @@ pick 923257d chore: Create third and fourth files
 pick a962c41 feature/ Adding task4 file
 ```
 I saved and after saving the opened another file with that commit message "create another file" , so i replaced this commit message with "Create second file"
+### 3.Keeping History Tidy - Squashing Commits:
+As create second and create initial files were the 4th commits i rebased from the 4th head and then added the keyword squash to the second most commit to be combined to the first one.
+```bash
+git log
+git rebase -i HEAD~4
+```
+This opens a file with all the commits(the last 4 commits). and the i changed pick to sqash. and then save.
+```bash
+pick 6afc6f8 chore: Create initial file
+sqash 5b1f6b8 chore: Create another file
+pick 923257d chore: Create third and fourth files
+pick a962c41 feature/ Adding task4 file
+```
+after saving, another file was opened and then i renamed the first commit"chore: Create initial file and Create second file"
+and then save and close that file.
