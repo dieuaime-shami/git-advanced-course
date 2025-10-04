@@ -83,3 +83,14 @@ pick Create Third File
 squash Create fourth File
 ```
 this will bring a new file and the all we have to do is to replace the first commit message to Create third and fourth files and delete the last message. and then save.
+
+### 6.Dropping a Commit:
+With the key drop after rebasing we easy drop the commit history.
+```bash
+git log
+git rebase -i HEAD~1
+```
+This will open one commit history in a file and the replace pick word to drop and the save.
+```bash
+drop unwanted commit
+```
