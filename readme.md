@@ -60,3 +60,13 @@ pick a962c41 feature/ Adding task4 file
 ```
 after saving, another file was opened and then i renamed the first commit"chore: Create initial file and Create second file"
 and then save and close that file.
+### 4.Splitting a Commit:
+By reset you have the ability to take back the commit to unstage area which allow to recommit it with a different commit message. I had a commit that had 2 files. this is how i have reset.
+```bash
+git log --oneline
+git reset
+git add test3.md
+git commit -m "Create Third File"
+git add test4.md
+git commit -m "Create fourth file"
+```
