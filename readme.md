@@ -131,3 +131,6 @@ By typing git log --graph i have seen the commit history of each commit and when
 ```bash
 git log --graph
 ```
+### 10.Understanding Reflogs (Bonus):
+* Reflogs keep or recods the update of all the branches and HEAD.
+This is how i did it and i have seen all the commits,checkout,rebase and other more.
