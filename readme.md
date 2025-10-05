@@ -226,4 +226,10 @@ touch test.md
 git add test.md
 git stash
 ```
+### 2.Retrieving Stashed Changes
+command like pop and apply help un unstash the changes we have stashed.
+In this case i have used stash pop to bring back what i have stashed.
+```bash
+git stash pop
+```
 
