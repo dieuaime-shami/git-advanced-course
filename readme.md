@@ -193,3 +193,11 @@ git push -u origin ft/new-branch-from-commit
  git merge ft/new-branch-from-commit
  ```
  In my case i did not get any conflict.
+
+ ### 8.Branch Rebasing:
+ Rebase takes all the commits from one branch and put them on the top of another branch. This is how i did everthing
+ ```bash
+ git checkout ft/new-branch-from-commit
+ git rebase main
+ git push origin ft/new-branch-from-commit
+ ```
