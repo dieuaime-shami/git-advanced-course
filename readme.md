@@ -185,3 +185,11 @@ git checkout -b ft/new-branch-from-commit 3019faa
 git log --oneline --decorate // for me to see the branch that it is pointing to.
 git push -u origin ft/new-branch-from-commit
 ```
+### 7.Branch Merging:
+ What i did was to first make sure the every thing in ft/new-branch-from-commit was upto date, the get back to the branch i wanted to merge to which was dev in my case. and the merge.
+ ```bash
+ git git push -u origin ft/new-branch-from-commit
+ git switch dev
+ git merge ft/new-branch-from-commit
+ ```
+ In my case i did not get any conflict.
