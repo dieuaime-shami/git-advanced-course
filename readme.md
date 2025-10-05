@@ -276,3 +276,11 @@ I first created a tag and then viewed if i have created in successfully and afte
  git tag
  git push origin tag
 ```
+### 8.Listing and Deleting Tags:
+The first thing i did was to list all the tags. I had one, do i deleted it locally and the deleted it remotely.
+```bash
+git tag
+git tag v1.0
+git tag -d v1.0
+git push origin --delete v1.0
+```
