@@ -134,3 +134,10 @@ git log --graph
 ### 10.Understanding Reflogs (Bonus):
 * Reflogs keep or recods the update of all the branches and HEAD.
 This is how i did it and i have seen all the commits,checkout,rebase and other more.
+
+## Part 2: Branching Basics (10 Challenges)
+### Feature Branch Creation:
+I have successfully created a branch and switched to it in oneline.
+```bash
+git checkout -b ft/new-feature
+```
