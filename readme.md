@@ -153,6 +153,25 @@ I have switch back to dev and created a new file added changes and commited it
 ```bash
 git switch dev
 touch readme.txt
-git add readme.txt\
+git add readme.txt
 git commit -m "Updated project readme"
+```
+### 4.Local vs. Remote Branches:
+According to the reaserch i have made, I have seen the following:
+* you have to be in the branch in which you want to create other branches from
+* Create a branch and add some changes
+* commit the change and the push the changes to the branch you are working on.
+
+###### the next step is to merge it
+* to marge the branch you have to first switch back to the parent branch dev or main
+* the pull the changes from the branch you have pushed
+* then merge that child branch
+In most cases you will get the confilct so you shoul resolve them.
+
+The push the dev remotely
+
+### 5.Branch Deletion:
+I have deleted the banch by using this command
+```bash
+git branch -D ft/new-feature
 ```
