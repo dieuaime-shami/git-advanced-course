@@ -101,3 +101,28 @@ I did was to rebase and the arrange the commit history messages, save and contin
  // arrange the commit message
  git rebase --continue
 ```
+### 8.Cherry-Picking Commits:
+Cherry-picking help us to copy a commit from one branch to another
+* I first created a branch and made some changes then commited it.
+```bash
+git checkout -b fr/branch
+touch test5.md
+//made some changes
+```
+* I then switched to dev and cherry-picked the commit
+```bash
+  git checkout dev
+  git log ft/branch --oneline // to see the commit history
+```
+* this is mine
+```bash
+31c4b1f (ft/branch) Implemented test 5
+8af29cf Create third and fourth files
+923257d (origin/dev) chore: Create third and fourth files
+5b1f6b8 c
+```
+The next step was to cherry-pick the commit
+```bash
+git cherry-pick 31c4b1f
+git log --oneline // I will see this commit in dev by now.
+```
