@@ -201,3 +201,9 @@ git push -u origin ft/new-branch-from-commit
  git rebase main
  git push origin ft/new-branch-from-commit
  ```
+ ### 9.Renaming Branches:
+ By the commamd git branch -m i renamed a branch name
+ ```bash
+ git branch -m ft/new-branch-from-commit ft/improved-branch-name
+ git branch // to make sure that the name changed.
+ ```
