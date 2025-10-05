@@ -260,3 +260,10 @@ git log --oneline
 git checkout 67e29d1
 // i was taken into the detached HEAD
 ```
+### 6.Ignoring Files/Directories:
+I created i file called gitgnore for me to put the files that i don't what to keep data and don't show it when ever i put the file. 
+```bash
+touch .gitignore
+// I also created a folder called temp
+```
+after this i enter gitignore file and put the folder name that i wanted to ignore plus /
