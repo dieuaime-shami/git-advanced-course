@@ -148,3 +148,11 @@ touch feature.txt
 //added changes
 commit -m "Implemented core functionality for new feature"
 ```
+### 3.Switching Back and Making More Changes:
+I have switch back to dev and created a new file added changes and commited it
+```bash
+git switch dev
+touch readme.txt
+git add readme.txt\
+git commit -m "Updated project readme"
+```
