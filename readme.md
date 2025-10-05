@@ -233,3 +233,22 @@ In this case i have used stash pop to bring back what i have stashed.
 git stash pop
 ```
 
+### 3.Branch Merging Conflicts (Continued):
+ I created a new branch and added a file and also put some change and commit, after that i also came to the dev and added the same file and change.
+```bash
+git branch -b new-branch
+touch file.md
+//add changes
+git add file.md
+git commit -m "adding a file"
+```
+```bash
+git switch dev
+  touch file.md
+//add changes
+git add file.md
+git commit -m "adding a file"
+
+git merge new-branch // it raised a conflict
+```
+I resolved the conflict by accepting the changes.
