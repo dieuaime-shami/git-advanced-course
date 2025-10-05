@@ -267,3 +267,12 @@ touch .gitignore
 // I also created a folder called temp
 ```
 after this i enter gitignore file and put the folder name that i wanted to ignore plus /
+
+### 7.Working with Tags:
+I first created a tag and then viewed if i have created in successfully and after that in push it.
+
+```bash
+ git tag v1.0
+ git tag
+ git push origin tag
+```
