@@ -126,3 +126,8 @@ The next step was to cherry-pick the commit
 git cherry-pick 31c4b1f
 git log --oneline // I will see this commit in dev by now.
 ```
+### Visualizing Commit History (Bonus):
+By typing git log --graph i have seen the commit history of each commit and when i was created.
+```bash
+git log --graph
+```
