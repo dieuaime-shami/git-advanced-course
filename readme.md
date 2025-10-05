@@ -252,3 +252,11 @@ git commit -m "adding a file"
 git merge new-branch // it raised a conflict
 ```
 I resolved the conflict by accepting the changes.
+
+### 5.Understanding Detached HEAD State:
+Log checked the history and took on of the commit hash and checkout from it
+```bash
+git log --oneline
+git checkout 67e29d1
+// i was taken into the detached HEAD
+```
