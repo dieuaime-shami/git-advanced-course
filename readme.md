@@ -214,3 +214,16 @@ git push -u origin ft/new-branch-from-commit
  git checkout df85815
  ```
  This took me in the detached HEAD
+
+## Part 3: Advanced Workflows (10+ Challenges)
+
+### 1.Stashing Changes:
+Stash help us to temporary keep the changes in case we want to switch to another branch and we are not ready to commit the changes.
+In this case i have created a file on dev branch and added some changes and the stash it.
+```bash
+touch test.md
+//add some changes
+git add test.md
+git stash
+```
+
