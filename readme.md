@@ -136,8 +136,15 @@ git log --graph
 This is how i did it and i have seen all the commits,checkout,rebase and other more.
 
 ## Part 2: Branching Basics (10 Challenges)
-### Feature Branch Creation:
+### 1.Feature Branch Creation:
 I have successfully created a branch and switched to it in oneline.
 ```bash
 git checkout -b ft/new-feature
+```
+### 2.Working on the Feature Branch:
+I have created a file , added the changes and the made some commits.
+```bash
+touch feature.txt
+//added changes
+commit -m "Implemented core functionality for new feature"
 ```
