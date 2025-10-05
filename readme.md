@@ -175,3 +175,13 @@ I have deleted the banch by using this command
 ```bash
 git branch -D ft/new-feature
 ```
+
+### 6.Creating a Branch from a Commit:
+I have first seen the commit history for me to get the commit hash. the i created a new branch switch to it and added the commit hash for me to enter it.
+and the push it.
+```bash
+git log --oneline
+git checkout -b ft/new-branch-from-commit 3019faa
+git log --oneline --decorate // for me to see the branch that it is pointing to.
+git push -u origin ft/new-branch-from-commit
+```
