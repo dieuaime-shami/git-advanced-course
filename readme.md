@@ -207,3 +207,10 @@ git push -u origin ft/new-branch-from-commit
  git branch -m ft/new-branch-from-commit ft/improved-branch-name
  git branch // to make sure that the name changed.
  ```
+### 10.Checking Out Detached HEAD:
+ We need detach HEAD to experiment with a past commit without affecting any branch. This is how i approached the challenge
+ ```bash
+ git log --oneline // a sow all the commit and took one hash commit
+ git checkout df85815
+ ```
+ This took me in the detached HEAD
